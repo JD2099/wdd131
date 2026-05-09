@@ -3,9 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Juan Diego Castillo | HTML, CSS, JavaScript, Web Development">
+    <meta name="author" content="Juan Diego Castillo">
+    <title>WDD 131 – Dynamic Web Fundamentals – Juan Diego Castillo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    
+
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+
+        <nav>
+            <a href="https://www.linkedin.com/in/juan-diego-castillo-ch%C3%A1vez-523257267/" target="_blank">LinkedIn</a>
+            <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Juan Diego Castillo Chávez</h1>
+
+        <section class="card">
+            <h2>About Me</h2>
+
+            <div class="about-content">
+            
+                <p>
+                    Hi everyone! My name is Juan Diego. I am a Computer Science and Information Technology professional passionate about learning and improving my skills. I enjoy exploring new technologies, adapting to challenges, and contributing my best in every project through teamwork, responsibility, and continuous growth.
+                </p>
+                <img src="images/my-photo.jfif" alt="Profile photo">
+            </div>
+
+            <h3>Lima, Perú</h3>
+            <hr>
+            <div class="country-content">
+                <img src="images/peru-bandera.png" alt="Peru flag">
+
+                <p class="lima-text">
+                    Lima is the capital city of Peru and one of the largest cities in South America. It is located on the Pacific coast and is known for its rich history, beautiful architecture, and world-famous cuisine. Lima combines modern city life with historical landmarks such as the Plaza Mayor and ancient ruins. The city has a mild climate, impressive ocean views, and a vibrant culture that attracts visitors from around the world.
+                </p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+
+            <ul>
+                <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                <li><a href="https://codepen.io/" target="_blank">CodePen</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> | Juan Diego Castillo | Perú
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
 </body>
 </html>
