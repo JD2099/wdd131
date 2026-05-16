@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Temple Album</title>
+
+    <link rel="stylesheet" href="styles/temples.css" />
+    <link rel="stylesheet" href="styles/temples-large.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h2>Temple Album</h2>
+
+            <button id="menuBtn">☰</button>
+
+            <nav id="navMenu">
+                <a href="#">Home</a>
+                <a href="#">Old</a>
+                <a href="#">New</a>
+                <a href="#">Large</a>
+                <a href="#">Small</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+
+        <section class="gallery">
+
+            <figure>
+                <img src="images/templo-sandiego.jpg" alt="Temple san diego" loading="lazy">
+                <figcaption>San Diego California</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/templo-lima.jpg" alt="Temple lima" loading="lazy">
+                <figcaption>Lima Peru</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/templo-losolivos.jpg" alt="Temple los olivos" loading="lazy">
+                <figcaption>Los Olivos Peru</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/templo-barranquilla.jpg" alt="Temple barranquilla" loading="lazy">
+                <figcaption>Barranquilla Colombia</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/templo-bogota.jpg" alt="Temple bogota" loading="lazy">
+                <figcaption>Bogota Colombia</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/templo-fortaleza.jpg" alt="Temple fortaleza" loading="lazy">
+                <figcaption>Fortaleza Brasil</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/templo-saopaulo.jpg" alt="Temple sao paulo" loading="lazy">
+                <figcaption>Sao Paulo Brasil</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/templo-cochabamba.jpg" alt="Temple cochabamba" loading="lazy">
+                <figcaption>Cochabamba Bolivia</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/templo-quito.jpg" alt="Temple quito" loading="lazy">
+                <figcaption>Quito Ecuador</figcaption>
+            </figure>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> | Juan Diego Castillo | Perú
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
