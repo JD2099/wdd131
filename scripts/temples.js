@@ -11,7 +11,7 @@ menuBtn.addEventListener('click', () => {
     }
 });
 
-document.querySelector('#year').textContent = new Date().getFullYear();
+const year = new Date().getFullYear();
+document.getElementById("currentyear").textContent = year;
 
-document.querySelector('#lastModified').textContent =
-    `Last Modification: ${document.lastModified}`;
+document.getElementById("lastModified").textContent =  `Last Modified: ${document.lastModified}`;
