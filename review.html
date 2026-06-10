@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Juan Diego Castillo">
+    <meta name="description" content="Thank you for submitting your product review. View the total number of reviews submitted.">
+    <title>Review Submitted</title>
+<link rel="stylesheet" href="styles/form.css">
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+    let count = Number(localStorage.getItem("reviewCount")) || 0;
+
+    count++;
+
+    localStorage.setItem("reviewCount", count);
+
+    document.getElementById("counter").textContent = count;
+});
+</script>
+</head>
+<body>
+
+    <header>
+        <h1>Thank You!</h1>
+    </header>
+
+    <main>
+        <p>Your review has been submitted.</p>
+
+        <p>Total Reviews Submitted:</p>
+
+        <h2 id="counter">0</h2>
+    </main>
+
+    <footer>
+        <p>&copy;2025 | Your Name | Peru</p>
+    </footer>
+
+</body>
+</html>

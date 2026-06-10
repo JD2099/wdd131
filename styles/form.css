@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+}
+
+header, footer{
+    background:#4b004b;
+    color:white;
+    text-align:center;
+    padding:1rem;
+}
+
+main{
+    max-width:600px;
+    margin:auto;
+    padding:1rem;
+}
+
+form{
+    background:white;
+    padding:1rem;
+    border-radius:8px;
+}
+
+label{
+    display:block;
+    margin-top:1rem;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea{
+    width:100%;
+    padding:.6rem;
+    box-sizing:border-box;
+}
+
+textarea{
+    min-height:100px;
+}
+
+.rating{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+input[type="submit"]{
+    width:100%;
+    margin-top:1rem;
+    padding:.8rem;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    padding:1rem;
+}
+
+#lastModified {
+    color: yellow;
+    font-size: 0.9rem;
+}
